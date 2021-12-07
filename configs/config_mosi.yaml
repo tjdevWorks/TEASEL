@@ -1,0 +1,21 @@
+---
+  seed: 42
+
+  SAMPLING_RATE: 16000 #Hz
+  MAX_TIME: 30 #seconds
+  MAX_TEXT_LENGTH: 75
+  
+  device: 'cuda' #or 'cpu'
+
+  mode: 'training' #'training' or 'eval'
+  pretrained_model_file: '/scratch/tm3647/NLP/NLP_Project/mosi_multi_modal/artificats/12032021_172140/model_ep_9.pt'
+
+  batch_size: 16
+  num_workers: 2
+
+  learning_rate: 2e-05
+  num_epochs: 5
+  gradient_accumulation_step: 1
+  warmup_proportion: 0.1
+  
+  model_output_dir: 'artificats/'

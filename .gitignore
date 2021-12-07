@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Wandb and Artificats
+artificats/*/
+wandb/
+
+#Slurm Outputs
+slurm_outputs/
+sbatch_files/
+
+test.py

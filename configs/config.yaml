@@ -1,0 +1,20 @@
+---
+  seed: 1024
+
+  SAMPLING_RATE: 16000 #Hz
+  MAX_TIME: 30 #seconds
+  MAX_TEXT_LENGTH: 75
+  
+  device: 'cuda' #or 'cpu'
+
+  mode: 'pretrain' #'training' or 'eval'
+
+  batch_size: 32
+  num_workers: 2
+
+  learning_rate: 2e-05
+  num_epochs: 10
+  gradient_accumulation_step: 1
+  warmup_proportion: 0.1
+  
+  model_output_dir: 'artificats/'
