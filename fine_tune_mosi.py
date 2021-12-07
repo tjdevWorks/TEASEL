@@ -24,6 +24,7 @@ parser.add_argument('--num_epochs', default=5, type=int, help='Set Number of Epo
 parser.add_argument('--batch_size', default=16, type=int, help='Set Batch Size')
 parser.add_argument('--max_text_length', default=75, type=int, help='Set Max Text Length')
 parser.add_argument('--max_time', default=30, type=int, help='Set Max Time')
+parser.add_argument('--mode', default='train', type=str, choices=['train', 'test'], help='Train Or Test Mode')
 #parser.add_argument('--config', type=str, help='Path to the config.yaml file')
 
 args = parser.parse_args()
