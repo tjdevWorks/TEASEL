@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TEASEL: A Transformer-based Speech-Prefixed Language Model
 
 This is an implemention of [TEASEL: A Transformer-based Speech-Prefixed Language Model](https://arxiv.org/pdf/2109.05522.pdf). We have listed below the steps to reproduce the experiments. Our model files are downloadable [here]() and the results closely match those published in the paper. We are not the original authors, but are open to discuss any issue with code or paper's understanding. 
@@ -26,8 +25,3 @@ For the pretraining phase, please download librispeech dataset ({train/test/dev}
 ## Results
 
 ## Citations
-=======
-# multimodal-sentiment-prediction
-
-README under development
->>>>>>> 6004eb3cfbd5ba03a12add6524f8b475c178610c
