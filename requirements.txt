@@ -1,0 +1,9 @@
+numpy==1.18.5
+pandas==1.0.5
+path.py==12.5.0
+PyYAML==6.0
+scikit_learn==1.0.2
+torch==1.10.2
+torchaudio==0.10.2
+tqdm==4.47.0
+transformers==4.16.1
