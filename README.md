@@ -14,7 +14,7 @@ We have not tested the code to work on other versions, especially for the transf
 
 ## Pretraining
 
-For the pretraining phase, please download librispeech dataset ({train/test/dev}-clean-100 version), alter the filepath column in data/librispeech_{train/test/dev}_df.csv to point to the place where you have stored the data. Then execute the following command to start the pretraining process:
+For the pretraining phase, please download [librispeech dataset](https://www.openslr.org/12/) train-clean-100, dev-clean and test-clean files, alter the filepath column in data/librispeech_{train/test/dev}_df.csv to point to the place where you have stored the data. Then execute the following command to start the pretraining process:
 
 ```
 python train.py --config config.yaml
