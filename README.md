@@ -22,7 +22,7 @@ python train.py --config config.yaml
 
 ## Finetuning
 
-For the finetuning phase, please download CMU MOSI dataset, alter the filepath column in data/mosi_{train/test/dev}_df.csv to point to the place where you have stored the data. Then execute the following command to start the finetuning process:
+For the finetuning phase, please download CMU MOSI raw dataset [CMU_MOSI.zip](http://immortal.multicomp.cs.cmu.edu/raw_datasets/), alter the filepath column in data/mosi_{train/test/dev}_df.csv to point to the place where you have stored the data. Then execute the following command to start the finetuning process:
 
 ```
 python fine_tune_mosi.py --config config_mosi.yaml
